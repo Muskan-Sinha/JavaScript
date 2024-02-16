@@ -23,3 +23,4 @@ console.log(myArray.indexOf(2));
 
 const newArr = myArray.join() //changes into string
 console.log(newArr);
+
