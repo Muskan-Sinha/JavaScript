@@ -20,11 +20,11 @@ let timeStamp = Date.now()
 console.log(timeStamp);
 
 console.log(date1.getTime());
-console.log(Math.floor(Date.now()/(1000)));
+console.log(Math.floor(Date.now() / (1000)));
 
 let newDate = new Date()
 console.log(newDate.getMonth());
 
-console.log(newDate.toLocaleString('default',{
+console.log(newDate.toLocaleString('default', {
     weekday: "long"
 }));

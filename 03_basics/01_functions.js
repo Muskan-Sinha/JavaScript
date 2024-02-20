@@ -23,10 +23,10 @@ function addTwoNumbers(number1, number2) {
     return number1 + number2
 }
 
-const result = addTwoNumbers(3,4)
+const result = addTwoNumbers(3, 4)
 console.log(result);
 
-function loginuserMessage(username = "sam"){
+function loginuserMessage(username = "sam") {
     if (username === undefined) {
         console.log("please enter a username");
         return
@@ -36,7 +36,7 @@ function loginuserMessage(username = "sam"){
 
 console.log(loginuserMessage());
 
-function calculateCartPrice(...num1){
+function calculateCartPrice(...num1) {
     return num1
 }
 
@@ -47,7 +47,7 @@ const user = {
     price: 199
 }
 
-function handleObject(anyObject){
+function handleObject(anyObject) {
     console.log(`Username is ${anyObject.username} and Price is ${anyObject.price}`);
 }
 
@@ -59,7 +59,7 @@ handleObject({
 
 const myNewArray = [100, 200, 300, 500]
 
-function returnSecondValue(getArray){
+function returnSecondValue(getArray) {
     return getArray[1]
 }
 

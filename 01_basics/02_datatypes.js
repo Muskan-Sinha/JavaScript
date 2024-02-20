@@ -15,13 +15,13 @@ console.log("Muskan");
 
 // object
 
-  const fun = () =>{
-     return 5 ; 
-  }
+const fun = () => {
+  return 5;
+}
 
-  const fun2 = () =>  5 ;
-  
+const fun2 = () => 5;
 
-   
+
+
 
 console.log(typeof undefined);

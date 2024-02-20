@@ -27,7 +27,7 @@ JsUser.email = "muskansinha@gmail.com"
 JsUser.email = "someoneelse@gmail.com"
 console.log(JsUser.email);
 
-JsUser.gretting = function(){
+JsUser.gretting = function () {
     console.log(`hello Js User, ${this.name}`);
 }
 
